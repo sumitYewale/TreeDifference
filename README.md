@@ -1,4 +1,4 @@
-# TreeDifference
+## TreeDifference
 
 TreeDifference is an library which will help you to get difference between two single or muldimensional array or object.
 **Some useful information:**
@@ -17,7 +17,7 @@ TreeDifference is an library which will help you to get difference between two s
 ### Manual
 ```php
 <?php
-include 'pathto/TreeWalker.php';
+include '/TreeDifference.php';
 ```
 
 ## Example
