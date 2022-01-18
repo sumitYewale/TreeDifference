@@ -9,13 +9,12 @@ TreeDifference is an library which will help you to get difference between two s
 - set_remove() - will help you to remove some keys from array/object
 
 ### Prerequisites
-<ul>
-  <li><p>PHP >= 5.3</p></li>
-</ul>
+
+- PHP >= 5.3
 
 ### Installation
-<hr/>
 
+## Manual
 ```php
 <?php
 include 'pathto/TreeWalker.php';
@@ -23,9 +22,9 @@ include 'pathto/TreeWalker.php';
 
 ### Example
 ```php
-$array1 = array(1,2,[2,3,4],6);
+$array1 = array(1,2,3,6);
 $array2 = array(1,2,33,4);
 $differ = new TreeDifference();
-$differ->set_remove([1,2]);
+$differ->set_remove([1,2]); // To remove unwanted keys from result array.. call it before get_diff()
 $result = $differ->get_diff($array1 , $array2, true);
 ```
