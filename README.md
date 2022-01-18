@@ -8,19 +8,19 @@ TreeDifference is an library which will help you to get difference between two s
 - get_diff() - get difference
 - set_remove() - will help you to remove some keys from array/object
 
-### Prerequisites
+## Prerequisites
 
 - PHP >= 5.3
 
-### Installation
+## Installation
 
-## Manual
+### Manual
 ```php
 <?php
 include 'pathto/TreeWalker.php';
 ```
 
-### Example
+## Example
 ```php
 $array1 = array(1,2,3,6);
 $array2 = array(1,2,33,4);
